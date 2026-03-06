@@ -160,11 +160,13 @@ python -X utf8 scripts/generate_charts.py
 ## 📁 Project Structure
 
 ```
-FINAL-MVP-CATTLE/
+BOVINE-AI/
 ├── app.py                              # Streamlit web application
 ├── requirements.txt                    # Python dependencies
 ├── setup.bat                           # One-click environment setup
 ├── README.md                           # This file
+├── STEP.md                             # Detailed step-by-step setup guide
+├── TECH_STACK.md                       # Complete technology stack reference
 ├── yolov8n.pt                          # YOLOv8 nano detection model
 │
 ├── models/
@@ -193,7 +195,18 @@ FINAL-MVP-CATTLE/
 │   ├── evaluate_buffalo_model.py       # Buffalo model evaluation
 │   ├── multi_view_analysis.py          # Three-view (left/front/right) analysis
 │   ├── dataset.py                      # PyTorch Dataset class
-│   └── model_registry.py              # Model registry utilities
+│   ├── model_registry.py              # Model registry utilities
+│   └── data_collection/               # Data acquisition scripts
+│       ├── download_roboflow_datasets.py       # Roboflow API dataset download
+│       ├── download_all_research_datasets.py   # Academic research datasets
+│       ├── download_buffalo_images.py          # Buffalo-specific image scraper
+│       ├── download_google_simple.py           # Google Images scraper
+│       ├── download_images_bulk.py             # Bulk image downloader
+│       ├── download_kaggle_datasets.py         # Kaggle dataset download
+│       ├── download_sample_data.py             # Sample data fetcher
+│       ├── download_auto.py                    # Automated download pipeline
+│       ├── organize_all_data_and_download_buffalo.py  # Data org + download
+│       └── process_all_downloads.py            # Post-download processing
 │
 ├── data/processed_v2/                  # Pre-processed datasets
 │   ├── cows/{train,val,test}/          # 6,788 images (Gir, Red Sindhi, Sahiwal)

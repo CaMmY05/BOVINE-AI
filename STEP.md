@@ -1,7 +1,6 @@
 # 📋 STEP-BY-STEP SETUP GUIDE
 
-> **Goal:** Clone this repo and get the Cattle Breed Recognition app running on your PC in ~15 minutes.  
-> **Difficulty:** Beginner-friendly — every single step is listed below.
+
 
 ---
 
@@ -355,12 +354,4 @@ streamlit run app.py
 
 ---
 
-## 📊 QUICK REFERENCE — What to Show the Evaluator
 
-1. **The Web App** — Upload images, see real-time breed detection and classification
-2. **Model Comparison** — Switch between EfficientNet/ResNet in sidebar, compare confidence
-3. **Charts** — Open `charts/` folder for 8 pre-generated comparison visualizations
-4. **Custom Code** — Show `models/custom_efficientnet.py` for the from-scratch implementation
-5. **Results** — Check `results/` folder for confusion matrices and metrics
-6. **Training Scripts** — Show `scripts/train_cow_classifier_v2.py` for training pipeline
-7. **README.md** — Full documentation with citations, architecture, and metrics
