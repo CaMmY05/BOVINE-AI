@@ -1,0 +1,77 @@
+{
+  "overall_accuracy": 98.84575026232949,
+  "per_class_accuracy": {
+    "gir": 99.71988795518207,
+    "red_sindhi": 95.59748427672956,
+    "sahiwal": 99.31350114416476
+  },
+  "top3_accuracy": 100.0,
+  "classification_report": "              precision    recall  f1-score   support\n\n         gir      0.989     0.997     0.993       357\n  red_sindhi      0.974     0.956     0.965       159\n     sahiwal      0.993     0.993     0.993       437\n\n    accuracy                          0.988       953\n   macro avg      0.985     0.982     0.984       953\nweighted avg      0.988     0.988     0.988       953\n",
+  "confusion_matrix": [
+    [
+      356,
+      1,
+      0
+    ],
+    [
+      4,
+      152,
+      3
+    ],
+    [
+      0,
+      3,
+      434
+    ]
+  ],
+  "num_test_images": 953,
+  "classes": [
+    "gir",
+    "red_sindhi",
+    "sahiwal"
+  ],
+  "detailed_metrics": {
+    "gir": {
+      "precision": 98.9,
+      "recall": 99.7,
+      "f1_score": 99.3,
+      "support": 357
+    },
+    "red_sindhi": {
+      "precision": 97.39999999999999,
+      "recall": 95.6,
+      "f1_score": 96.5,
+      "support": 159
+    },
+    "sahiwal": {
+      "precision": 99.3,
+      "recall": 99.3,
+      "f1_score": 99.3,
+      "support": 437
+    },
+    "macro_avg": {
+      "precision": 98.5,
+      "recall": 98.2,
+      "f1_score": 98.4
+    },
+    "weighted_avg": {
+      "precision": 98.8,
+      "recall": 98.8,
+      "f1_score": 98.8
+    }
+  },
+  "additional_metrics": {
+    "specificity": [
+      0.9932885906040269,
+      0.9949622166246851,
+      0.9941860465116279
+    ],
+    "npv": [
+      0.9983136593591906,
+      0.9912170639899623,
+      0.9941860465116279
+    ],
+    "mcc": 0.9814265763921282,
+    "cohen_kappa": 0.9814103518963817
+  }
+}

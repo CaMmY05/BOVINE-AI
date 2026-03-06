@@ -1,0 +1,33 @@
+{
+  "overall_accuracy": 95.95959595959596,
+  "per_class_accuracy": {
+    "jaffarabadi": 100.0,
+    "mehsana": 87.5,
+    "murrah": 97.82608695652173
+  },
+  "top3_accuracy": 100.0,
+  "classification_report": "              precision    recall  f1-score   support\n\n jaffarabadi      0.967     1.000     0.983        29\n     mehsana      0.955     0.875     0.913        24\n      murrah      0.957     0.978     0.968        46\n\n    accuracy                          0.960        99\n   macro avg      0.960     0.951     0.955        99\nweighted avg      0.959     0.960     0.959        99\n",
+  "confusion_matrix": [
+    [
+      29,
+      0,
+      0
+    ],
+    [
+      1,
+      21,
+      2
+    ],
+    [
+      0,
+      1,
+      45
+    ]
+  ],
+  "num_test_images": 99,
+  "classes": [
+    "jaffarabadi",
+    "mehsana",
+    "murrah"
+  ]
+}
